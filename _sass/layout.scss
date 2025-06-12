@@ -172,3 +172,20 @@ blockquote:before {
 	}
 
 }
+
+/*-----*/
+
+.company-text {
+    font-family: 'Consolas', monospace;
+    font-size: 26px;
+    color: #ffffff;
+    user-select: none;
+}
+
+.company-name {
+    position: relative;
+    top: -5px;
+    gap: 4px;
+    margin-left: -30px;
+    margin-bottom: -5px;
+}

@@ -23,9 +23,13 @@
 	<body>
 		<header>
 			<div class="container">
-				<div class="company-name"><a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/images/logo.png" alt="Synlith Logo" width="95" height="50" /></a></div>
-				{% include navigation.html %}
-				Synlith
+				<div class="company-name" style="display: flex; align-items: center;">
+                    			<a href="{{ site.baseurl }}/">
+                      				<img src="{{ site.baseurl }}/images/logo.png" alt="Synlith Logo" width="95" height="50" />
+                    			</a>
+                    			<span class="company-text">Synlith</span>
+                		</div>
+                		{% include navigation.html %}
 			</div>
 		</header>
 		{{ content }}

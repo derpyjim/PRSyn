@@ -1,17 +1,44 @@
 ---
-title: Our team
-description: >-
-  We've built an amazing, fantastic team of developers, marketers, designers and
-  sales people.
+layout: default
+title: About
 ---
 
-<p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_staff_members/" class="btn"><strong>&#9998;</strong> Manage Staff members</a></p>
-<ul class="staff">
-	{% for person in site.staff_members %}
-		<li>
-			<div class="square-image"><img src="{% include relative-src.html src=person.image_path %}" alt="{{ person.name }}"/></div>
-			<div class="name"><a target="_blank" href="https://twitter.com/{{ person.twitter }}">{{ person.name }}</a></div>
-			<div class="position">{{ person.position }}</div>
-		</li>
-	{% endfor %}
-</ul>
+<div class="content">
+    <img src="{{ site.baseurl }}/images/skyline.png" alt="Screenshot" class="about-image">
+    <div class="boxes">
+        <div class="container flex">
+            <div class="text editable">
+                <h4 class="editable">Company</h4>
+                <p class="subtext editable">Headquartered in Chicago, Synlith specializes in empowering businesses through intelligent data analysis and actionable insights. We offer an all-in-one software solution that transforms complex internal data into clear, automated recommendations. Our platform helps businesses make smarter decisions faster, whether it's refining pricing strategies, identifying new R&D opportunities, or generating detailed financial reports — all while maintaining the highest standards of security and privacy.</p>
+            </div>
+        </div> 
+    </div>
+
+    <div class="boxes">
+        <div class="container flex">
+            <div class="text editable">
+                <h4 class="editable">Mission</h4>
+                <p class="subtext editable">Our mission is to help businesses unlock the full potential of their data. By combining advanced machine learning, large language models, and robust analytics, we deliver precise recommendations that drive growth, efficiency, and innovation. Unlike many existing solutions that require companies to transmit their sensitive data to external servers, increasing vulnerability and compliance risks, our platform operates on-premises or in private cloud environments. This ensures that businesses always maintain full control and ownership over their data while benefiting from sophisticated, AI-powered insights. We're committed to making data-driven decision-making secure, accessible, and seamlessly integrated into every organization's daily operations.</p>
+            </div>
+        </div> 
+    </div>
+
+    <div class="boxes">
+        <div class="container flex">
+            <div class="text editable">
+                <h4 class="editable">Products</h4>
+                <p class="subtext editable">Synlithium provides a comprehensive suite of tools that analyze a company's internal data across multiple dimensions. From dynamic financial reporting and intelligent pricing suggestions to pinpointing untapped areas for research and development, our software consolidates a wide range of business needs into a single, intuitive interface. Delivered either on-premises or in a private cloud, our platform ensures that companies maintain full control over their sensitive information while benefiting from state-of-the-art technology.</p>
+            </div>
+        </div> 
+    </div>
+
+    <div class="boxes">
+        <div class="container flex">
+            <div class="text editable">
+                <h4 class="editable">Innovations</h4>
+                <p class="subtext editable">We are at the forefront of enterprise AI, leveraging cutting-edge machine learning and large language models to continuously refine and enhance our analytics capabilities. Our algorithms not only process data at scale but also understand context, trends, and nuances that drive more accurate and insightful recommendations. This continuous innovation allows us to provide businesses with solutions that are not only reactive but proactively suggest strategic opportunities.</p>
+            </div>
+        </div> 
+    </div>
+    <br>
+</div>

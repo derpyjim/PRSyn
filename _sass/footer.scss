@@ -1,12 +1,7 @@
 .footer-links {
-	width: 100%;
+	width: auto;
 	margin: 10px;
 	padding: 0;
-
-	@media #{$tablet} {
-		-webkit-flex: 1 0 180px;
-		flex: 1 0 180px;
-	}
 
 	li {
 		list-style: none;
@@ -98,7 +93,9 @@ footer {
 	.footer-columns {
 		@extend %flexbox;
 		@include flex-flow(wrap);
-		margin: -10px -10px 10px -10px;
+		margin: -10px 10px 0 10px;
+        	justify-content: center;
+        	gap: 50px;
 	}
 
 	a {

@@ -40,6 +40,12 @@
 			<div class="container">
 				<p class="editor-link"><a href="cloudcannon:collections/_data/footer.yml" class="btn"><strong>&#9998;</strong> Edit footer</a></p>
 				<div class="footer-columns">
+					<div class="logo-text">
+                        			<a href="{{ site.baseurl }}/">
+                            				<img src="{{ site.baseurl }}/images/logo.png" alt="Synlith Logo" width="95" height="100"/>
+                        			</a>
+                        			<span class="bottom-text">Synlith</span>
+                    			</div>
 					{% for column in site.data.footer %}
 					<ul class="footer-links">
 						{% for link in column.links %}

@@ -1,71 +1,64 @@
 ---
 title: Pricing
 heading: Find the perfect plan for your business
-description: All plans include our award winning sales optimization solution to track your sales in real time.
 pricing_table:
-  - name: Basic
-    color: "#8e8e8e"
+  - name: Synlithium Lite
+    color: "#f75794"
+    features:
+      - text: Free
+        highlight: true
+      - text: Standard analytics
+        highlight: false
+      - text: No AI features
+        highlight: false
+      - text: Limited external integrations
+        highlight: false
+      - text: Email support
+        highlight: false
+    call_to_action:
+      link: /contact/
+      text: Get started
+  - name: Synlithium
+    color: "#ff9129"
     features:
       - text: $25 per month
         highlight: true
-      - text: Up to 5 users
+      - text: Full analytics
         highlight: false
-      - text: Basic lead scoring
+      - text: ML and LLM models
         highlight: false
-      - text: CRM
+      - text: API access
         highlight: false
-      - text: Basic reporting
-        highlight: false
-      - text: Sales map
+      - text: 24/5 Support
         highlight: false
     call_to_action:
-      link: http://mysite.com?plan=basic
+      link: /contact/
       text: Get started
-  - name: Pro
-    color: "#4a4a4a"
+  - name: Synlithium Pro
+    color: "#242424"
     features:
-      - text: $99 per month
+      - text: $60 per month
         highlight: true
-      - text: Everything in Basic
+      - text: Full analytics
         highlight: false
-      - text: Up to 25 users
+      - text: Customizable ML and LLM models
         highlight: false
-      - text: Advanced lead scoring
+      - text: API access and extensibility
         highlight: false
-      - text: Pipeline management
-        highlight: false
-      - text: Advanced reporting
+      - text: 24/7 Support
         highlight: false
     call_to_action:
-      link: http://mysite.com?plan=pro
-      text: Get started
-  - name: Professional
-    color: "#000000"
-    features:
-      - text: $299 per month
-        highlight: true
-      - text: Everything in Basic and Pro
-        highlight: false
-      - text: Up to 100 users
-        highlight: false
-      - text: Campaign builder
-        highlight: false
-      - text: Machine learning
-        highlight: false
-      - text: Calendar
-        highlight: false
-    call_to_action:
-      link: http://mysite.com?plan=professional
+      link: /contact/
       text: Get started
 faq:
   - question: What types of payment do you accept?
-    answer: Credit cards including MasterCard, Visa or American Express.
+    answer: Credit or debit cards including MasterCard, Visa, and American Express.
   - question: Can I change my plan at a later time?
-    answer: Yes, you can upgrade and downgrade your plan at anytime.
-  - question: Do you offer pricing for nonprofit organizations?
-    answer: Yes, send us a message and we'll set you up on our nonprofit pricing.
-  - question: Questions?
-    answer: Contact us for any further questions at <a href="#">john@business.com</a>.
+    answer: Yes, upgrades are effective immediately while downgrades take effect at the start of the following month.
+  - question: Do you offer deals for nonprofit organizations?
+    answer: Yes, send us a message and we'll set you up with our nonprofit pricing options.
+  - question: Other questions?
+    answer: Contact us for any further questions at <a href="mailto:support@synlith.com">support@synlith.com</a>.
 ---
 <div class="plans">
 	{% for plan in page.pricing_table %}

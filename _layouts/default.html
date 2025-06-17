@@ -4,6 +4,8 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="application-name" content="Synlith">
+        	<meta property="og:site_name" content="Synlith">
 
 		<title>
             		Synlith{% if page.title %} - {{ page.title }}{% endif %}
@@ -12,13 +14,13 @@
 		{% feed_meta %}
 
 		<link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css">
-		<link rel="icon" type="image/png" href="{{ site.baseurl }}/images/logo.png">
+		<link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon.png">
 
 		<script type="application/ld+json">
             		{
               			"@context": "https://schema.org",
               			"@type": "WebSite",
-              			"name": "Synlith",
+              			"alternateName": "synlith.com",
               			"url": "https://synlith.com"
             		}
         	</script>

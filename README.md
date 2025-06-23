@@ -27,7 +27,7 @@ $ bundle exec jekyll serve
 
 ## Editing
 
-Hydra is already optimised for adding, updating and removing pages, staff, advice, company details and footer elements in CloudCannon.
+VSCode/CloudCannon
 
 ### Posts
 

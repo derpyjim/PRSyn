@@ -323,3 +323,14 @@ blockquote:after {
 .careers-section {
 	padding: 40px 0px 100px 0px;
 }
+
+@media (max-width: 471px) {
+    footer .footer-columns {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    footer .logo-text {
+      margin-bottom: -80px;
+    }
+}

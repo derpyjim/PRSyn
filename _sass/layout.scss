@@ -297,6 +297,10 @@ blockquote:after {
     background-color: darkorange;
 }
 
+.careers-image {
+    position: relative;
+}
+
 .office-image {
     display: block;
     margin: 50px auto;
@@ -309,7 +313,7 @@ blockquote:after {
 
 .overlay-text {
     position: absolute;
-    top: 40%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;

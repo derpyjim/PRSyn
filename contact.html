@@ -27,14 +27,6 @@ map:
 
 		<input type="submit" value="Send Message" />
 	</form>
-
-	<div class="contact-details">
-		<h3 class="editable">Address</h3>
-		<address><a target="_blank" href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">{{ page.map.address | replace: ", ", ", <br>" }}</a></address>
-
-		<h3 class="editable">Email</h3>
-		<p><a href="mailto:support@synlith.com">support@synlith.com</a></p>
-	</div>
 </div>
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />

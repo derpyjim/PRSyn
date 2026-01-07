@@ -1,8 +1,5 @@
 # Synlith
 
-Site upkeep
-
-
 [![Deploy to CloudCannon](https://buttons.cloudcannon.com/deploy.svg)](https://app.cloudcannon.com/register#sites/)
 
 ## Setup

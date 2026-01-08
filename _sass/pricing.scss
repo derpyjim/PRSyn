@@ -53,10 +53,12 @@
     	gap: 50px;
     	margin: 0 30px 0 30px;
 	color: #666;
+	
 	div {
 		break-inside: avoid;
 		padding: 25px 0;
 		margin-bottom: -20px;
+		min-width: 0;
 	}
 
 	dt {
